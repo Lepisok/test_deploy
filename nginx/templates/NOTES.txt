@@ -1,6 +1,4 @@
 Welcome to "{{ .Release.Name }}" ({{ .Chart.Description }}) version "{{ .Chart.AppVersion }}" for namespace "{{ .Release.Namespace }}",
-for current namespace "{{ .Values.currentNamespace }}",
-proudly build from repository "{{ .Values.image.repository }}".
 
 Release revision: {{ .Release.Revision }}
 
