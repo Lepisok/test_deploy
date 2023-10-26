@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: lepisok/webserver:{{ .Values.imageTag }}
+        image: {{ .Values.image.repository }}:{{ .Values.image.imageTag }}
         ports:
         - containerPort: 80
